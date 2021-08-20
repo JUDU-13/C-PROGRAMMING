@@ -1,0 +1,26 @@
+/*
+C PROGRAM TO evaluate the arithmetic expression ((a -b / c * d + e) * (f +g)) and display its solution.
+*/
+#include<stdio.h>
+int main()
+{
+ int a,b,c,d,e,f,g,Result;
+    printf("enter value of a :\n");
+    scanf("%d",&a);
+    printf("enter value of b :\n");
+    scanf("%d",&b);
+    printf("enter value of c :\n");
+    scanf("%d",&c);
+    printf("enter value of d :\n");
+    scanf("%d",&d);
+    printf("enter value of e :\n");
+    scanf("%d",&e);
+    printf("enter value of f :\n");
+    scanf("%d",&f);
+    printf("enter value of g :\n");
+    scanf("%d",&g);
+    Result=((a-b/c*d+e)*(f+g));
+    printf("RESULT=%d",Result);
+  return 0;
+ }
+
